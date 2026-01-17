@@ -1,0 +1,2237 @@
+{
+  "name": "Book Recommendation BOT-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 6,
+    "entities": 5,
+    "dialog_nodes": 44
+  },
+  "status": "Available",
+  "created": "2025-07-09T19:45:09.920Z",
+  "updated": "2025-07-09T19:45:09.920Z",
+  "language": "en",
+  "skill_id": "2852158f-c620-48f6-b51d-afb7771b9797",
+  "snapshot": "4",
+  "workspace": {
+    "created": "2025-07-09T19:45:09.920Z",
+    "intents": [
+      {
+        "intent": "book_recommendation",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "examples": [
+          {
+            "text": "Any good books with dragons?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a book with a strong female lead",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good book for mystery lovers?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a high-stakes political thriller",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which space exploration novel is a must-read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Do you have more from Colleen Hoover?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "name book by ana Huang",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by Mark Twain",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by R.K. Narayan",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by Ruskin Bond",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by Stephen King",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by Collen Hoover",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by Dan Brown",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend books by J.K. Rowling",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I need some good book recommendations",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What should I read ?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend some mystery books",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a good read",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend me a good fiction book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any good adventure novels I should read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a mystery book for me",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I'm looking for a great romance novel",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Can you recommend a fantasy book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I need a good science fiction book to read",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What are some popular non-fiction books?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a historical fiction book suggestion",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good thriller book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a young adult novel",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Can you suggest a classic literature book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want to read a horror novel, any suggestions?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest me an autobiography to read",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which graphic novel should I read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any good detective stories you recommend?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want a feel-good romance book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a book from the dystopian genre",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which crime novel should I check out?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any recommendations for spy thrillers?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Can you name a good coming-of-age book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Tell me a good book about time travel",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a light-hearted fiction read",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a deep philosophical novel",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a war-based book to read",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What fantasy series should I start with?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want a suspenseful book recommendation",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest me an epic historical novel",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any romantic comedy books I can read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a survival-themed adventure book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want a book with magical realism",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good steampunk adventure?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a book about wilderness survival",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a novel that explores identity",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What is a good magical adventure book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Can you suggest a family saga book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a suspense-filled courtroom drama",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good book with time loops?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any popular book series I should start?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want a cozy mystery book recommendation",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest me a Nobel prize-winning novel",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which novels are good for beginners?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a book about mental health",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a cyberpunk sci-fi book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What are some good indie novels?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a historical romance suggestion",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which book should I read on self-discovery?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a gripping legal drama",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a novel based on true events",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any magical academy books you recommend?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good pirate-themed book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a book with parallel worlds",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a book about mythology",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want to read something like The Hunger Games",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a psychological thriller",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which book should I read about aliens?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a book for history lovers",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good detective mystery novel?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a feel-good family drama book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Can you recommend a dark fantasy novel?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Any books like Harry Potter?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest a book with supernatural elements",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What book should I read if I love puzzles?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Give me a book that's a tearjerker",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Recommend a book about ancient civilizations",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which novel is best for crime and mystery?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want a novel with a twist ending",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Name a great environmental fiction book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest an inspiring true story book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "What's a good beach read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Can you give me a post-apocalyptic novel?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          }
+        ]
+      },
+      {
+        "intent": "more",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "examples": [
+          {
+            "text": "some more books",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want some other examples",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest other",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Suggest some more",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "chit-chat",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "examples": [
+          {
+            "text": "Yes",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I want to hear a joke",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which is your favourite book?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Why should we read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Make me laugh",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Which genre is best to read?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "any personal recommendations?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "greetings",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "examples": [
+          {
+            "text": "good evening",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hi there",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hello there",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hey there",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "yo",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "what's up",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "नमस्ते",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "हाय",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "सुप्रभात",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "शुभ संध्या",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "कैसे हो",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hola",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "buenos días",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "buenas tardes",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "buenas noches",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "bonjour",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "salut",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "bonsoir",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "ça va",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "guten tag",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hallo",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "guten morgen",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "guten abend",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "na?",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "السلام عليكم",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "مرحبا",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "صباح الخير",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "مساء الخير",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "你好",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "早上好",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "下午好",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "晚上好",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "こんにちは",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "やあ",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "おはようございます",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "こんばんは",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "வணக்கம்",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "হ্যালো",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "শুভ সকাল",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "শুভ সন্ধ্যা",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hello",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hi",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "hey",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "good morning",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "good afternoon",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "howdy",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "காலை வணக்கம்",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "மாலை வணக்கம்",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          }
+        ]
+      },
+      {
+        "intent": "YES",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "examples": [
+          {
+            "text": "yes",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Sure",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Yeah",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Yup",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "thank_you",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "examples": [
+          {
+            "text": "Thanks for your help",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Thanks a lot!",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "I am thankful for your advice",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Really thanks for the suggestions",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          },
+          {
+            "text": "Thank you for helo",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2025-07-09T19:45:09.920Z",
+    "entities": [
+      {
+        "entity": "yes",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Yup",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "Absolutely",
+              "Of course",
+              "Please do",
+              "Sure",
+              "Yeah"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "yes, suggest more like this",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "no",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Maybe later",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Not now",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "No",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "Nah",
+              "Nope",
+              "No, thanks"
+            ]
+          }
+        ],
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "talk",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "benefits of reading",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "why should we read?"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "favourite book",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "personal recommendation"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "joke",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "laugh"
+            ]
+          }
+        ],
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "author",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Ruskin Bond",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Stephen King",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Stuti Changle",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Vikram Seth",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Agatha Christie",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Ana Huang",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Colleen Hoover",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "George Orwell",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "J.K. Rowling",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Kiran Desai",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Oscar Wilde",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "R.K. Narayan",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "book_genre",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "comedy",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "fun",
+              "funny",
+              "humor",
+              "satire"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "mystery",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "crime",
+              "detective",
+              "mysteries",
+              "psychological",
+              "suspense"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "romantic",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "heartwarming",
+              "love",
+              "loving",
+              "romance",
+              "rom-com"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "thriller",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "psychological thriller"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "kid",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "children",
+              "kido",
+              "short stories",
+              "teenager"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "horror",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "creepy",
+              "paranormal",
+              "scary",
+              "supernatural"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "fiction",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "fable",
+              "literary",
+              "science fiction"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "fantasy",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "ghosts",
+              "unrealistic",
+              "witches"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "memoir",
+            "created": "2025-07-09T19:45:29.022Z",
+            "updated": "2025-07-09T19:45:29.022Z",
+            "synonyms": [
+              "non-fiction"
+            ]
+          }
+        ],
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 6,
+          "entities": 5,
+          "dialog_nodes": 44
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.Pride and Prejudice – Jane Austen  2.Me Before You – Jojo Moyes  3.The Notebook – Nicholas Sparks  4.Outlander – Diana Gabaldon  5.Red, White & Royal Blue – Casey McQuiston  "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "romance"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:romantic",
+        "dialog_node": "response_5_1751910544038",
+        "previous_sibling": "response_10_1751910398115"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.The Girl with the Dragon Tattoo – Stieg Larsson  \n2.Gone Girl – Gillian Flynn  \n3.The Da Vinci Code – Dan Brown  \n4.Big Little Lies – Liane Moriarty  \n5.The Woman in White – Wilkie Collins  \n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "mystery"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:mystery",
+        "dialog_node": "response_10_1751910398115",
+        "previous_sibling": "response_1_1751995723997"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You might love this magical tale — it's a reader favorite!\nHere is a list: 1.Harry Potter and the Sorcerer’s Stone – J.K. Rowling  2.The Hobbit – J.R.R. Tolkien  3.The Name of the Wind – Patrick Rothfuss  4.A Game of Thrones – George R.R. Martin  5.Mistborn: The Final Empire – Brandon Sanderson  "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "fantasy"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:fantasy",
+        "dialog_node": "response_4_1751995597323",
+        "previous_sibling": "response_7_1751910449387"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.To Kill a Mockingbird – Harper Lee \n2.The Great Gatsby – F. Scott Fitzgerald  \n3.The Catcher in the Rye – J.D. Salinger  \n4.1984 – George Orwell  \n5.Beloved – Toni Morrison  \n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "fiction"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:fiction",
+        "dialog_node": "response_2_1751910485291",
+        "previous_sibling": "response_4_1751995597323"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.The Girl on the Train – Paula Hawkins  \n2.The Silent Patient – Alex Michaelides  \n3.Before I Go to Sleep – S.J. Watson  \n4.Shutter Island – Dennis Lehane  \n5.Verity – Colleen Hoover  \n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "thrill"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:thriller",
+        "dialog_node": "response_1_1751996655080",
+        "previous_sibling": "response_5_1751910544038"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.Bridget Jones’s Diary – Helen Fielding  \n2.Good Omens – Terry Pratchett & Neil Gaiman  \n3.Less – Andrew Sean Greer  \n4.The Hitchhiker’s Guide to the Galaxy – Douglas Adams  \n5.Where’d You Go, Bernadette – Maria Semple  "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "comedy"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:comedy",
+        "dialog_node": "response_7_1751910449387",
+        "previous_sibling": "node_1_1752036234614"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.Harry Potter Series – J.K. Rowling  \n2.Percy Jackson and the Olympians Series – Rick Riordan  \n3.Diary of a Wimpy Kid Series – Jeff Kinney  \n4.Wonder – R.J. Palacio  \n5.Holes – Louis Sachar  \n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "kid"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:kid",
+        "dialog_node": "response_6_1751910503719",
+        "previous_sibling": "response_2_1751910495044"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.Sapiens: A Brief History of Humankind – Yuval Noah Harari  2.Educated – Tara Westover  \n3.Becoming – Michelle Obama  \n4.The Diary of a Young Girl – Anne Frank  \n5.Born a Crime – Trevor Noah  \n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "memoir"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:memoir",
+        "dialog_node": "response_1_1751995723997",
+        "previous_sibling": "response_6_1751910503719"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.It – Stephen King  \n2.The Shining – Stephen King  \n3.Dracula – Bram Stoker  \n4.Frankenstein – Mary Shelley  \n5.Mexican Gothic – Silvia Moreno-Garcia  \n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1751910328311",
+        "context": {
+          "last_suggested_genre": "horror"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@book_genre:horror",
+        "dialog_node": "response_2_1751910495044",
+        "previous_sibling": "response_2_1751910485291"
+      },
+      {
+        "type": "standard",
+        "title": "Some more",
+        "parent": "node_3_1751910328311",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "#more && $last_suggested_genre == \"thrill\" ||             $last_suggested_genre==\"comedy\" ||            $last_suggested_genre==\"kid\" ||          $last_suggested_genre==\"mystery\" ||        $last_suggested_genre==\"memoir\" ||       $last_suggested_genre==\"fantasy\" ||  $last_suggested_genre==\"romance\" ||    $last_suggested_genre==\"fiction\" ||   $last_suggested_genre==\"horror\"",
+        "dialog_node": "node_1_1752036234614"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.A Suitable Boy\n2.An Equal Music\n3.The Golden Gate\n4.Two Lives\n5.Beastly Tales from Here and There\n6.All You Who Sleep Tonight"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Vikram Seth)",
+        "dialog_node": "response_4_1751998759377",
+        "previous_sibling": "response_5_1751998512024"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.The Inheritance of Loss\n2.Hullabaloo in the Guava Orchard\n(Note: She has only 2 major published novels.)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Kiran Desai)",
+        "dialog_node": "response_5_1751998348144",
+        "previous_sibling": "response_6_1751998193370"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.On the Open Road\n2.You Only Live Once\n3.Where the Sun Never Sets\n(She has 3 main novels published as of now.)"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Stuti Changle)",
+        "dialog_node": "response_9_1751998476053",
+        "previous_sibling": "response_5_1751998348144"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list:\n1.It Ends with Us\n2.Verity\n3.Ugly Love\n4.Reminders of Him\n5.It Starts with Us\n6.November 9"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Colleen Hoover)",
+        "dialog_node": "response_6_1751998193370",
+        "previous_sibling": "response_1_1751998152350"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.1984\n2.Animal Farm\n3.Homage to Catalonia\n4.Down and Out in Paris and London\n5.Keep the Aspidistra Flying\n6.Coming Up for Air"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(George Orwell)",
+        "dialog_node": "response_8_1751998824307",
+        "previous_sibling": "response_4_1751998759377"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.Murder on the Orient Express\n2.And Then There Were None\n3.The Murder of Roger Ackroyd\n4.Death on the Nile\n5.The ABC Murders\n6.The Mysterious Affair at Styles"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Agatha Christie)",
+        "dialog_node": "response_9_1751998896359",
+        "previous_sibling": "response_8_1751998824307"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.The Picture of Dorian Gray\n2.The Importance of Being Earnest\n3.De Profundis\n4.The Canterville Ghost\n5.A Woman of No Importance\n6.Salomé"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Oscar Wilde)",
+        "dialog_node": "response_1_1751998152350",
+        "previous_sibling": "response_2_1751997981478"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.Swami and Friends\n2.The Guide\n3.The Bachelor of Arts\n4.The English Teacher\n5.Malgudi Days\n6.The Vendor of Sweets"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(R.K. Narayan)",
+        "dialog_node": "response_5_1751998512024",
+        "previous_sibling": "response_9_1751998476053"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.The Shining\n2.It\n3.Carrie\n4.Misery\n5.Pet Sematary\n6.The Stand"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Stephen King)",
+        "dialog_node": "response_5_1751997876402",
+        "previous_sibling": "response_5_1751997794533"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: 1.Harry Potter and the Sorcerer’s Stone\n2.Harry Potter and the Chamber of Secrets\n3.Harry Potter and the Prisoner of Azkaban\n4.Harry Potter and the Goblet of Fire\n5.Harry Potter and the Order of the Phoenix\n6.The Casual Vacancy"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(J.K. Rowling)",
+        "dialog_node": "response_5_1751997794533",
+        "previous_sibling": "response_3_1751953583020"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list: \n1.The Room on the Roof\n2.Rusty the Boy from the Hills\n3.The Blue Umbrella\n4.A Flight of Pigeons\n5.Delhi Is Not Far\n6.Our Trees Still Grow in Dehra"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Ruskin Bond)",
+        "dialog_node": "response_2_1751997981478",
+        "previous_sibling": "response_5_1751997876402"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here is a list:\nTwisted Love\n\nTwisted Games\n\nTwisted Hate\n\nTwisted Lies\n\nKing of Wrath\n\nKing of Pride"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            },
+            {
+              "values": [],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1751953568481",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@author:(Ana Huang)",
+        "dialog_node": "response_3_1751953583020"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Just 6 minutes of reading can lower your heart rate and reduce stress levels by up to 68%."
+                },
+                {
+                  "text": "Fiction helps you understand different perspectives and emotions, enhancing emotional intelligence."
+                },
+                {
+                  "text": "Reading activates your imagination, making you a better problem-solver and thinker."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_6_1752041915019",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@talk:(benefits of reading)",
+        "dialog_node": "response_10_1752042898446",
+        "previous_sibling": "response_4_1752041936908"
+      },
+      {
+        "type": "standard",
+        "title": "no",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "No worries!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1752041915019",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@no",
+        "dialog_node": "node_8_1752060928591",
+        "previous_sibling": "node_4_1752059738517"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Why did the romance novel break up with the horror novel? ➤ Because it was tired of all the ghosting."
+                },
+                {
+                  "text": "What do you call a detective who loves reading?\n➤ Sherlock Holmeschooled."
+                },
+                {
+                  "text": "Why did the book join the gym?\n➤ It wanted to improve its binding!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_6_1752041915019",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@talk:joke",
+        "dialog_node": "response_4_1752041936908",
+        "previous_sibling": "node_8_1752060928591"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I’ve got a few all-time favorites! Here they are:\n📘 *To Kill a Mockingbird*\n📕 *Pride and Prejudice*\n📙 *The Book Thief*\n📗 *You Only Live Once*\n\nWould you like me to recommend similar reads?\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_6_1752041915019",
+        "context": {
+          "similar": "yes"
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "@talk:(favourite book)",
+        "dialog_node": "response_1_1752058995155",
+        "previous_sibling": "response_10_1752042898446"
+      },
+      {
+        "type": "standard",
+        "title": "yes to more",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "- Great! Here are a few books you might enjoy if you liked To Kill a Mockingbird:\n📗 The Help\n📘 A Lesson Before Dying\n📙 Roll of Thunder, Hear My Cry\n📕 Go Set a Watchman\n\n-If you loved Pride and Prejudice, then you must explore these too:\n📗 Emma - Jane Austen\n📘 Sense and Sensibility - Jane Austen\n📙 Wives and Daughters - Elizabeth Gaskell\n📕 Little Women -  Louisa May Alcott \n\n-Here are some similar reads to The Book Thief:\n📗 The Boy in the Striped Pajamas- John Boyne\n📘 Salt to the Sea- Ruta Sepetys\n📙 All the Light We Cannot See -Anthony Doerr\n📕 The Kite Runner -  Khaled Hosseini\n\n-If you liked You Only Live Once, then probably these are for you:\n📗 It’s All in the Planets - Preeti Shenoy\n📘 The Alchemist - Paulo Coelho\n📙 Everyone Has a Story - Savi Sharma\n📕 Life is What You Make It - Preeti Shenoy"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1752041915019",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "#YES",
+        "dialog_node": "node_4_1752059738517"
+      },
+      {
+        "type": "standard",
+        "title": "Books by author",
+        "parent": "node_1_1751910244679",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "@author",
+        "dialog_node": "node_1_1751953568481",
+        "previous_sibling": "node_3_1751910328311"
+      },
+      {
+        "type": "standard",
+        "title": "Books by genre",
+        "parent": "node_1_1751910244679",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "@book_genre",
+        "dialog_node": "node_3_1751910328311"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here are some more books for the kiddo:\n1.A Wrinkle in Time – Madeleine L'Engle  \n2.The Chronicles of Narnia – C.S. Lewis  \n3.Bridge to Terabithia – Katherine Paterson  \n4.How to Train Your Dragon Series – Cressida Cowell  \n5.The Mysterious Benedict Society – Trenton Lee Stewart"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"kid\"",
+        "dialog_node": "response_3_1752037261274",
+        "previous_sibling": "response_4_1752037166031"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Some more mystery books for you:\n1.Sherlock Holmes: A Study in Scarlet – Arthur Conan Doyle  \n2.The No. 1 Ladies' Detective Agency – Alexander McCall Smith  \n3.And Then There Were None – Agatha Christie  \n4.In the Woods – Tana French  \n5.The Thursday Murder Club – Richard Osman"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"mystery\"",
+        "dialog_node": "response_9_1752037690401",
+        "previous_sibling": "response_2_1752037383500"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "According to your wish, here are some more fiction books:1.A Man Called Ove – Fredrik Backman  2.The Alchemist – Paulo Coelho  3.Life of Pi – Yann Martel  4.The Book Thief – Markus Zusak 5.The Kite Runner – Khaled Hosseini"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"fiction\"",
+        "dialog_node": "response_9_1752036918525",
+        "previous_sibling": "response_3_1752036815354"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "As you asked, some more books for you:\n1.The Haunting of Hill House – Shirley Jackson  \n2.Bird Box – Josh Malerman  \n3.House of Leaves – Mark Z. Danielewski  \n4.The Exorcist – William Peter Blatty  \n5.Pet Sematary – Stephen King"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"horror\"",
+        "dialog_node": "response_4_1752037166031",
+        "previous_sibling": "response_9_1752036918525"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "As you asked, here are other examples:\n1.The Night Circus – Erin Morgenstern  \n2.The Priory of the Orange Tree – Samantha Shannon  \n3.A Court of Thorns and Roses – Sarah J. Maas  \n4.Eragon – Christopher Paolini  \n5.Circe – Madeline Miller"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"fantasy\"",
+        "dialog_node": "response_3_1752036815354",
+        "previous_sibling": "response_8_1752036383702"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "These are some more for you:\n1.The Couple Next Door – Shari Lapena  \n2.The Reversal – Michael Connelly  \n3.The Chain – Adrian McKinty  \n4.The Woman in Cabin 10 – Ruth Ware  \n5.Behind Closed Doors – B.A. Paris"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"thrill\"",
+        "dialog_node": "response_4_1752037901374",
+        "previous_sibling": "response_4_1752037802650"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Dive into some more romance novels:1.It Ends With Us – Colleen Hoover  2.The Time Traveler’s Wife – Audrey Niffenegger  3.The Hating Game – Sally Thorne  4.Beach Read – Emily Henry  5.The Rosie Project – Graeme Simsion"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"romance\"",
+        "dialog_node": "response_4_1752037802650",
+        "previous_sibling": "response_9_1752037690401"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here are some more book examples:\n1.When Breath Becomes Air – Paul Kalanithi  \n2.Eat, Pray, Love – Elizabeth Gilbert  \n3.The Glass Castle – Jeannette Walls  \n4.I Am Malala – Malala Yousafzai  \n5.Wild – Cheryl Strayedere"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"memoir\"",
+        "dialog_node": "response_2_1752037383500",
+        "previous_sibling": "response_3_1752037261274"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "As you asked, here are some more:\n1.Anxious People – Fredrik Backman  \n2.The Rosie Project – Graeme Simsion  \n3.Catch-22 – Joseph Heller  \n4.Three Men in a Boat – Jerome K. Jerome  \n5.A Confederacy of Dunces – John Kennedy Toole"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1752036234614",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "$last_suggested_genre==\"comedy\"",
+        "dialog_node": "response_8_1752036383702"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_7_1751906077728",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "ThankYou",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Thank you for making use of our facility"
+                },
+                {
+                  "text": "Thanks for contacting us"
+                },
+                {
+                  "text": "Thank you for your visit"
+                },
+                {
+                  "text": "Thanks for being with us"
+                },
+                {
+                  "text": "Thank you for trusting our service"
+                },
+                {
+                  "text": "Glad you stopped by!"
+                },
+                {
+                  "text": "Thank you for availing this facility"
+                },
+                {
+                  "text": "Thanks for giving us your time"
+                },
+                {
+                  "text": "I am glad I was able to help you"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "#thank_you",
+        "dialog_node": "node_8_1751909718693",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Greetings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "How can I help you?"
+                },
+                {
+                  "text": "Hello! Let me help you find your next good read!"
+                },
+                {
+                  "text": "What help do you need? I am here to help you find your next good read!"
+                },
+                {
+                  "text": "How may I assist you? Searching for something to read?"
+                },
+                {
+                  "text": "Searching for something to lay eyes on? I am here to help!"
+                },
+                {
+                  "text": "So dear user...Do you enjoy fast-paced thrillers or slow-burn mysteries?"
+                },
+                {
+                  "text": "Hey, Any particular author or mood you’re in today?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "#greetings",
+        "dialog_node": "node_7_1751906077728",
+        "previous_sibling": "node_6_1752041915019"
+      },
+      {
+        "type": "standard",
+        "title": "chit chat",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "#chit-chat",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_6_1752041915019",
+        "digress_out": "allow_all",
+        "previous_sibling": "node_1_1751910244679"
+      },
+      {
+        "type": "standard",
+        "title": "Recommend Books",
+        "output": {
+          "generic": [
+            {
+              "values": [],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "metadata": {
+          "_customization": {
+            "mcr": false
+          }
+        },
+        "next_step": {
+          "behavior": "skip_user_input"
+        },
+        "conditions": "#book_recommendation",
+        "digress_in": "returns",
+        "dialog_node": "node_1_1751910244679",
+        "digress_out": "allow_all",
+        "previous_sibling": "node_8_1751909718693"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello, book-o-genius this side! "
+                },
+                {
+                  "text": "Hi, Your book-o-genius is at your service!"
+                },
+                {
+                  "text": "Hey, I am book-o-genius! Looking for something to read? I am here!"
+                },
+                {
+                  "text": "Hey there, fellow book lover! 📚 Ready for your next good read?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [
+      {
+        "text": "booking",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z"
+      },
+      {
+        "text": "hotel",
+        "created": "2025-07-09T19:45:29.022Z",
+        "updated": "2025-07-09T19:45:29.022Z"
+      }
+    ],
+    "learning_opt_out": false
+  },
+  "description": "",
+  "assistant_id": "eff99ee1-bc4b-4004-bf3a-e1a7dca80b05",
+  "dialog_settings": {
+    "source_assistant": "6aa38966-4e9b-4fc0-9ae5-23ce7953a42d"
+  },
+  "assistant_references": [
+    {
+      "name": "Book Recommendation BOT",
+      "assistant_id": "6aa38966-4e9b-4fc0-9ae5-23ce7953a42d",
+      "skill_reference": "main skill"
+    }
+  ]
+}
