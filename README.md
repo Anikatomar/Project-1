@@ -13,8 +13,8 @@ It support for multiple user queries in a single conversation
 
 TOOLS USED:
 
-IBM CLOUD-IBM Watson Assistant for creating intents, entities, and dialog flows
-VS CODE-Compiling html and css codes for website building
-CHAT GPT-To get list of books of various genres and authors.
-MICROSOFT EXCEL-CSV files to store training examples for different intents (e.g., greeting, thank you, book recommendation)
+1. IBM CLOUD-IBM Watson Assistant for creating intents, entities, and dialog flows
+2. VS CODE-Compiling html and css codes for website building
+3. CHAT GPT-To get list of books of various genres and authors.
+4. MICROSOFT EXCEL-CSV files to store training examples for different intents (e.g., greeting, thank you, book recommendation)
 
